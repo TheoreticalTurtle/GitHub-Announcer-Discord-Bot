@@ -6,6 +6,6 @@ client.on('ready', () => {
 });
 client.login(process.env.TOKEN)
 client.on('messageCreate', (msg) => {
-	if (msg.author.id === '948441496519077929') msg.reply('@everyone Git Repository for Pretty Chicken has been updated.');
+	if (msg.author.id === '948441496519077929') msg.reply('@everyone Git Repository has been updated.');
 	//console.log(msg.author.id);
 });
